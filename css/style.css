@@ -1,0 +1,75 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+}
+
+nav a{
+    border-radius: 8px;
+    height: 50px;
+    align-content: center;
+    color: black;
+    text-decoration: none;
+}
+
+.bg-aliceblue {
+    background-color: aliceblue;
+}
+
+.bg-antiquewhite {
+    background-color: antiquewhite;
+}
+
+main{
+    display: flex;
+    gap: 32px;
+}
+
+main > section{
+    flex: 1;
+    text-align: center;
+}
+
+.formula-img{
+    height: 420px;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-luas{
+    background-image: url(https://algebratics.wordpress.com/wp-content/uploads/2013/11/generalareaofatriangle.jpg);
+}
+
+.img-keliling{
+    background-image: url(https://www.wikihow.com/images_en/thumb/3/38/Find-the-Perimeter-of-a-Triangle-Step-1-Version-2.jpg/v4-460px-Find-the-Perimeter-of-a-Triangle-Step-1-Version-2.jpg)
+}
+
+/*form css*/
+input[type=number]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+/*form css*/
+
+button{
+    background-color: cornsilk;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+}
+
+footer{
+    text-align: center;
+}
